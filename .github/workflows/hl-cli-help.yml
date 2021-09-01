@@ -29,5 +29,6 @@ jobs:
                                                    --workingDir /w \
                                                    --tokenAuth ${{ secrets.CAST_HIGHLIGHT_API_TOKEN }} \
                                                    --companyId ${{ env.companyId }} \
-                                                   --applicationId ${{ env.applicationId }}  
+                                                   --applicationId ${{ env.applicationId }}
+                                                   --serverUrl ${{ env.serverUrl }}
 
