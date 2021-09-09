@@ -10,8 +10,6 @@ on:
   schedule:
     - cron: 30 * * * *
 
-  workflow_dispatch:
-    branches: [ main ]
   
 jobs:
   scan:
