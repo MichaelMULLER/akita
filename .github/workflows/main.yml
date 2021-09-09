@@ -8,8 +8,8 @@ on:
   #   branches: [ main ]
   
   schedule:
-    - cron: 30 * * * *
     branches: [ main ]
+    - cron: 30 * * * *
 
   # workflow_dispatch:
   #   branches: [ main ]
