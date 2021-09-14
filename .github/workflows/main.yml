@@ -4,16 +4,10 @@ name: CAST Highlight Scan (scheduled)
 # action triggers, here every two weeks (days 5 and 15 of the month) at 6am
 on:
   
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-
   workflow_dispatch:
     branches: [ main ]
 
   schedule:
-   # - cron: 0 6 1,15 * *
     - cron: 0,10,20,30,40,50 * * * *
 
 
